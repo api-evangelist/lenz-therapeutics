@@ -1,0 +1,66 @@
+generated: '2026-08-25'
+method: probed
+source: >-
+  Anonymous HTTPS probes of every host LENZ Therapeutics operates — the corporate WordPress site
+  (lenz-tx.com), the VIZZ product site (www.vizz.com) and the investor-relations portal
+  (ir.lenz-tx.com). No .well-known document was served by any host; every path returned 404.
+note: >-
+  RECORDED ABSENCE, NOT A PRESENCE. Every path below 404d, so no `WellKnown` or `SecurityTxt`
+  pointer is wired into apis.yml. The 404 bodies on lenz-tx.com and ir.lenz-tx.com are the
+  WordPress / IR-platform theme error pages, and www.vizz.com returns a JSON 404 envelope — none
+  of them is a document.
+hosts:
+- host: lenz-tx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: www.vizz.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: ir.lenz-tx.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
