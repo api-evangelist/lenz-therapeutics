@@ -9,6 +9,17 @@ description: >-
   developer program, public API, SDK, or machine-readable API description of any kind; its public
   surface is a ten-page WordPress marketing site, a VIZZ product site, and an investor-relations
   portal carrying SEC filings and a press-release RSS feed.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://lenz-tx.com/wp-content/uploads/2022/06/gb_home_1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/lenz-therapeutics/refs/heads/main/apis.yml
 x-type: company
