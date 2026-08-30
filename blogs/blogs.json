@@ -1,0 +1,21 @@
+{
+  "repo": "lenz-therapeutics",
+  "feeds": [
+    {
+      "source": "https://lenz-tx.com/privacy-policy/",
+      "feed_url": "https://lenz-tx.com/privacy-policy/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://ir.lenz-tx.com/news-events/press-releases",
+      "feed_url": "https://ir.lenz-tx.com/news-events/press-releases/rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
