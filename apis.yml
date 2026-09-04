@@ -20,6 +20,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://lenz-tx.com/wp-content/uploads/2022/06/gb_home_1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/lenz-therapeutics/refs/heads/main/apis.yml
 x-type: company
